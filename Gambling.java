@@ -13,6 +13,17 @@ public class Gambling {
 		System.out.println(Stack);
 		System.out.println(betPrice);
 		
+		int play = (int)(Math.random()*2);
+		
+		switch(play) {
+		case 0:
+			Stack = Stack + betPrice;
+			System.out.println(Stack);
+		case 1:
+			Stack = Stack - betPrice;
+			System.out.println(Stack);
+		}
+		
 		}
 
 }
