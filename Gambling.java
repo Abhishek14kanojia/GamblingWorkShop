@@ -46,8 +46,6 @@ public class Gambling {
 	        }
 	        System.out.println(" \n In total 20 days, the player has won " + win + " days and loose " + loose + " days");
 	        System.out.println("The total gain amount for 20 Days is $" + profit);
-	        scanner.close();
-		
-		}
-
+	        scanner.close(); 
+	    }
 }
